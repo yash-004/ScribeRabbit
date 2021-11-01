@@ -1,0 +1,251 @@
+html {
+    position: relative;
+    overflow-y: scroll;
+    background: #FFFFFF;
+}
+
+* {
+    letter-spacing: 0.1vw;
+}
+
+.navbar {
+    color: #2E0B92;
+    background-color: #FF7F5C;
+    letter-spacing: 0.2vw;
+}
+
+.navbar-brand img {
+    padding-bottom: 2.75vh;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #2E0B92;
+    font-weight: 550;
+}
+
+.login-btn,
+.rect-1-btn {
+    font-weight: 550 !important;
+    color: #2E0B92 !important;
+    border-radius: 10vw !important;
+    border: 2px solid #2E0B92 !important;
+}
+
+.navbar-collapse {
+    text-align: center;
+}
+
+.purple {
+    color: #2E0B92 !important;
+}
+
+.orange {
+    color: #FF7F5C !important;
+}
+
+.green {
+    color: #72CEC1 !important;
+}
+
+.white {
+    color: #F9FAFC !important;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.hidden {
+    display: none !important;
+}
+
+
+/* Rectangle 1 */
+
+.rect-1 {
+    height: 100%;
+    width: 100%;
+    color: #2E0B92;
+    /* archive/orange */
+    background: #FF7F5C;
+}
+
+.rect-1-img {
+    /* Vector */
+    background: transparent;
+    box-shadow: -9px 10px 16px rgba(0, 0, 0, 0.25);
+    padding: 0!important;
+}
+
+.rect-1-text p {
+    font-family: serif;
+}
+
+.rect-1-btn {
+    /* archive/orange */
+    background: #FF7F5C;
+    /* archive/purple */
+    border: 3px solid #2E0B92;
+    border-radius: 55px;
+}
+
+.rect-2 {
+    height: 100%;
+    width: 100%;
+    color: #F9FAFC;
+    /* archive/orange */
+    /*     background-image: url("images/rect-2-background.png");
+    background-size: cover; */
+    background: linear-gradient(125deg, #2E0B92 75%, #72CEC1 75%);
+    font-family: serif;
+}
+
+.rect-2 .nav-link.active {
+    font-weight: 550;
+    background-color: transparent !important;
+    color: #FF7F5C !important;
+}
+
+.rect-2 .nav-link {
+    text-decoration: none;
+    color: #F9FAFC;
+}
+
+.rect-2 h5 {
+    font-family: sans-serif;
+    color: #FF7F5C;
+}
+
+.rect-2-btn {
+    /* archive/green */
+    background: #72CEC1;
+    /* archive/purple */
+    color: #2E0B92;
+    border: none;
+    border-radius: 55px;
+    font-family: sans-serif;
+    font-weight: 550;
+}
+
+.rect-2 .nav-link :hover {
+    color: #FF7F5C;
+}
+
+.rect-3 {
+    background-color: #FF7F5C;
+    background-image: url('images/rect-3-img.png');
+    background-size: auto 80%;
+    background-repeat: no-repeat;
+    background-position: left center;
+}
+
+.rect-3-text-small {
+    color: #2E0B92;
+    font-weight: 400;
+}
+
+.rect-3-text-big {
+    color: #F9FAFC;
+    font-weight: 700;
+}
+
+.rect-4 {
+    background-color: #72CEC1;
+    color: #2E0B92;
+}
+
+.rect-4 p {
+    font-family: serif;
+}
+
+.rect-4-small {
+    display: none;
+}
+
+.rect-4-img-small {
+    width: 80%
+}
+
+.rect-4 .nav-link {
+    color: #2E0B92;
+}
+
+.rect-4 .nav-link.active {
+    background-color: #2E0B92 !important;
+}
+
+.rect-5 {
+    background-color: #FF7F5C;
+    color: #F9FAFC;
+}
+
+.rect-5-text-small {
+    font-family: serif;
+}
+
+.rect-5-btn {
+    background-color: #F9FAFC;
+    color: #2E0B92;
+    border: none;
+    border-radius: 55px;
+    font-family: sans-serif;
+    font-weight: 550;
+}
+
+.rect-6 {
+    background-image: url("images/rect-6-background.png");
+    background-size: cover;
+    color: #2E0B92;
+}
+
+.rect-6-left-col {
+    font-weight: 550;
+}
+
+.rect-6-left-col a {
+    text-decoration: none;
+    color: #2E0B92;
+}
+
+.rect-6 .form-control {
+    background-color: transparent;
+    border: 2px solid #2E0B92;
+    border-radius: 12px;
+    color: #2E0B92;
+}
+
+.rect-6 .form-control:focus {
+    background-color: #FF7F5C;
+    border: 2px solid #72CEC1;
+    border-radius: 12px;
+    color: #2E0B92;
+}
+
+.rect-6-btn {
+    background-color: #2E0B92;
+    color: #FFDA93;
+    border-radius: 12px;
+    border: none;
+}
+
+@media screen and (max-width: 769px) {
+    .rect-2 img {
+        display: none;
+    }
+    .rect-2 {
+        background: #2E0B92;
+    }
+    .rect-2-text {
+        background: linear-gradient(110deg, #2E0B92 75%, #72CEC1 75%);
+    }
+    .rect-3 {
+        background-size: 95% auto;
+    }
+    .rect-4-big {
+        display: none;
+    }
+    .rect-4-small {
+        display: block;
+    }
+}
